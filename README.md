@@ -1,5 +1,7 @@
 # portfolio-site-redux
-A redo of my first portfolio site
+A redo of my first portfolio site.
+
+I was less than impressed with my previous portfolio website, so I wanted to give it another shot.
 
 # Audience
 For potential employers, potential partners and anyone with enough curiousity.
