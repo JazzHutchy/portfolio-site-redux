@@ -8,6 +8,17 @@ For potential employers, potential partners and anyone with enough curiousity.
 
 # Design Decisions
 
+# Inspirations
+One of the biggest problems I faced with my previous attempt at building a site was my motivation to actually construct it. I felt like I was being dishonest with myself by trying to pick colours and themes
+
+Because gaming is one of my long-time hobbies, I thought I should base my site on gaming product websites:
+
+- Razer: https://www2.razerzone.com/au-en
+![alt text](http://https://www2.razerzone.com/au-en/to/img.png)
+
+- Epic Gear: https://www.epicgear.com/en/news
+- Mad Katz: http://www.madcatz.com/
+
 # Usability Heuristics
 
 # Wireframes
@@ -15,6 +26,8 @@ For potential employers, potential partners and anyone with enough curiousity.
 # Style Guide
 
 # Logo
+
+# Challenges
 
 # Criteria to address (for personal reference)
 Compliant website using HTML and CSS
