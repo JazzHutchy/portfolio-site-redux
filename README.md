@@ -14,7 +14,7 @@ One of the biggest problems I faced with my previous attempt at building a site 
 Because gaming is one of my long-time hobbies, I thought I should base my site on gaming product websites:
 
 - Razer: https://www2.razerzone.com/au-en
-![alt text](http://https://www2.razerzone.com/au-en/to/img.png)
+![alt text](https://www2.razerzone.com/au-en/to/img.png)
 
 - Epic Gear: https://www.epicgear.com/en/news
 - Mad Katz: http://www.madcatz.com/
