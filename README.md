@@ -20,6 +20,9 @@ Because gaming is one of my long-time hobbies, I thought I should base my site o
 - Mad Katz: http://www.madcatz.com/
 
 # Usability Heuristics
+- My site will have a navbar to access all part of the site, including home, about, skills and portfoilio pages.
+- There should easy access to downloading my resumes on every page of the site.
+- After a long hiatus, I have picked up Javascript as part of my coding repotoire. I intend to use it to create dynamic features for my website.
 
 # Wireframes
 

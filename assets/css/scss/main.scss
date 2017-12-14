@@ -1,8 +1,24 @@
-
-// font-family: 'Source Code Pro', monospace;
+// font-family: 'Francois One', sans-serif;
 // font-family: 'Ubuntu', sans-serif;
+// font-family: 'Source Code Pro', monospace;
 
 @import 'nav';
 @import 'flexbox';
 @import 'images';
 @import 'responsive';
+
+nav:link {
+  color: yellow;
+}
+
+nav:active {
+  color: green;
+}
+
+nav:visited{
+  color: red;
+}
+
+nav:hover{
+  color: orchid;
+}
