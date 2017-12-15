@@ -2,23 +2,56 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
-@import 'nav';
-@import 'flexbox';
-@import 'images';
-@import 'responsive';
+// @import 'nav';
+// @import 'flexbox';
+// @import 'images';
+// @import 'responsive';
 
-nav:link {
-  color: yellow;
+a:link {
+  color: coral;
 }
 
-nav:active {
+a:active {
   color: green;
 }
 
-nav:visited{
+a:visited{
   color: red;
 }
 
-nav:hover{
-  color: orchid;
+a:hover{
+  color: green;
+}
+
+p {
+  color: dodgerblue;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.main-title {
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    25% {
+        color: green;
+      }
+      
+      50% {
+        color: greenyellow;
+      } 
+
+      75% {
+        color: green;
+      }
+      100% {
+        color: black;
+      }
 }

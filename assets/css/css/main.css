@@ -1,0 +1,35 @@
+a:link {
+  color: coral; }
+
+a:active {
+  color: green; }
+
+a:visited {
+  color: red; }
+
+a:hover {
+  color: green; }
+
+p {
+  color: dodgerblue; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline; }
+
+.main-title {
+  animation: animate 3s linear infinite; }
+
+@keyframes animate {
+  25% {
+    color: green; }
+  50% {
+    color: greenyellow; }
+  75% {
+    color: green; }
+  100% {
+    color: black; } }
+
+/*# sourceMappingURL=main.css.map */
