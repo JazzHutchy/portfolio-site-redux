@@ -7,24 +7,31 @@
 // @import 'images';
 // @import 'responsive';
 
+* {
+  font-family: 'Ubuntu', sans-serif;
+  color:white;
+  background-color: #222020
+}
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+  color: green;
+}
+
 a:link {
-  color: coral;
+  color: green;
 }
 
 a:active {
-  color: green;
+  color: greenyellow;
 }
 
 a:visited{
-  color: red;
-}
-
-a:hover{
   color: green;
 }
 
-p {
-  color: dodgerblue;
+a:hover{
+  color: greenyellow;
 }
 
 ul {
@@ -36,7 +43,7 @@ li {
 }
 
 .main-title {
-  animation: animate 3s linear infinite;
+  animation: animate 5s linear infinite;
 }
 
 @keyframes animate{
@@ -48,10 +55,7 @@ li {
         color: greenyellow;
       } 
 
-      75% {
-        color: green;
-      }
       100% {
-        color: black;
+        color: green;
       }
 }
