@@ -2,16 +2,20 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
-a:link {
-  color: coral;
-}
+// a:link {
+//   color: coral;
+// }
 
 a:visited{
   color: white;
 }
 
 a:hover{
-  color: green;
+  color:green;
+}
+
+.remove-underline a{
+  text-decoration:none;
 }
 
 p {
@@ -31,7 +35,7 @@ i {
 }
 
 .body-color{
-  background-color: #202020;
+  background-color: #1b1b1b;
 }
 
 .h2-color{
@@ -56,9 +60,8 @@ i {
   padding: 30px 0px 30px 0px;
 }
 
-.skills-border{
-  border: 5px;
-  border-color: white;
+.skills-box{
+  background-color:red;
 }
 
 .footer-stretch{
