@@ -2,21 +2,12 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
-// @import 'nav';
-// @import 'flexbox';
-// @import 'images';
-// @import 'responsive';
-
 a:link {
   color: coral;
 }
 
-a:active {
-  color: green;
-}
-
 a:visited{
-  color: red;
+  color: white;
 }
 
 a:hover{
@@ -24,7 +15,7 @@ a:hover{
 }
 
 p {
-  color: dodgerblue;
+  color: #b2b2b2;
 }
 
 ul {
@@ -33,6 +24,50 @@ ul {
 
 li {
   display: inline;
+}
+
+i {
+  color: #ffffff;
+}
+
+.body-color{
+  background-color: #202020;
+}
+
+.h2-color{
+  color: #ffffff;
+}
+
+.header-footer{
+  background-color:#2c2c2c;
+  width: 100%;
+  border-style:solid;
+  border-color:#202020;
+}
+
+.nav-boxes{
+  display: inline-block;
+  height: 20px;
+  width: 60px;
+  margin: 5px;
+}
+
+.container-padding{
+  padding: 30px 0px 30px 0px;
+}
+
+.skills-border{
+  border: 5px;
+  border-color: white;
+}
+
+.footer-stretch{
+  display: inline-block;
+  height: 150px;
+}
+
+.align-center{
+  text-align: center;
 }
 
 .main-title {

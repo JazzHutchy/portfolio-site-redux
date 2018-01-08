@@ -8,7 +8,7 @@ For potential employers, potential partners and anyone with enough curiousity.
 
 # Design Decisions
 
-# Inspirations
+## Inspirations
 One of the biggest problems I faced with my previous attempt at building a site was my motivation to actually construct it. I felt like I was being dishonest with myself by trying to pick colours and themes
 
 Because gaming is one of my long-time hobbies, I thought I should base my site on gaming product websites:
@@ -19,8 +19,9 @@ Because gaming is one of my long-time hobbies, I thought I should base my site o
 - Epic Gear: https://www.epicgear.com/en/news
 - Mad Katz: http://www.madcatz.com/
 
-# Usability Heuristics
-- My site will have a navbar to access all part of the site, including home, about, skills and portfoilio pages.
+## Usability Heuristics
+- Was initially thinking of trying a multi-page website, but most likely going to scrap the idea as it doesn't offer the best UX given the level of content. Created a seperate branch for both, just in case.
+- My site will have a navbar to quickly access all part of the site, including home, about, skills and portfoilio pages.
 - There should easy access to downloading my resumes on every page of the site.
 - After a long hiatus, I have picked up Javascript as part of my coding repotoire. I intend to use it to create dynamic features for my website.
 
