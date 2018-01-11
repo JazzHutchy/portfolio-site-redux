@@ -1,3 +1,19 @@
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 3s linear infinite;
+  animation: progress-bar-stripes 3s linear infinite; }
+
+.bg-dark {
+  background-color: #222222 !important; }
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.5rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0rem; }
+
 a:visited {
   color: white;
   text-decoration: none; }
@@ -5,6 +21,9 @@ a:visited {
 a:hover {
   color: #64D640 !important;
   text-decoration: none !important; }
+
+h1 {
+  color: #ffffff; }
 
 p {
   color: #b2b2b2; }
@@ -16,7 +35,8 @@ li {
   display: inline; }
 
 i {
-  color: #ffffff; }
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif; }
 
 .body-color {
   background-color: #1b1b1b; }
@@ -42,6 +62,9 @@ i {
   width: 60px;
   margin: 5px; }
 
+.main-title {
+  text-align: center; }
+
 .container-padding {
   padding: 30px 0px 30px 0px; }
 
@@ -52,6 +75,19 @@ i {
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px; }
+
+.footer-stretch {
+  display: inline-block;
+  height: 150px; }
+
+.align-center {
+  text-align: center; }
+
+.footer-font {
+  color: #64D640; }
+
+.about-me-wrapper {
+  background-color: #3a3a3a; }
 
 .skills-flex {
   text-align: center;
@@ -72,12 +108,27 @@ i {
 .skill-background2 {
   background-color: #525252; }
 
-.footer-stretch {
-  display: inline-block;
-  height: 150px; }
+.portfolio-wrapper {
+  background-color: #3a3a3a; }
 
-.align-center {
-  text-align: center; }
+.current-projects-wrapper {
+  background-color: #5a5a5a; }
+
+.download-button {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; }
+
+.message-box {
+  background-color: #838383;
+  border: solid;
+  border-color: #838383;
+  border-radius: 5px; }
+
+.form-display {
+  margin: 5px; }
 
 .main-title-animation {
   animation: title 3s linear infinite; }
@@ -90,13 +141,10 @@ i {
 
 .skill-text h2 {
   opacity: 0;
-  transition: 0.5s; }
+  transition: 0.75s; }
 
 .skill-text:hover h2 {
   opacity: 1; }
-
-.footer-font {
-  color: #64D640; }
 
 @keyframes title {
   25% {

@@ -14,7 +14,11 @@
 
   <title>Jared Hutchinson</title>
 
-  <!-- CSS -->
+  <!-- Enable Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+
+  <!-- CSS (can override bootstrap elements) -->
   <link rel="stylesheet" href="/assets/css/css/main.css">
 
   <!-- Enable Devicons -->
@@ -23,9 +27,7 @@
   <!-- Enable Fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/33ce5400c0.css">
 
-  <!-- Enable Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
-    crossorigin="anonymous">
+
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Francois+One|Source+Code+Pro|Ubuntu" rel="stylesheet">
@@ -50,6 +52,11 @@
           <a href="/portfolio.html">Portfolio</a>
       </ul>
     </nav>
+
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+        aria-valuemax="100" style="width: 100%"></div>
+    </div>
   </div>
 
   <div class='container-padding'>
@@ -58,9 +65,9 @@
     </div>
   </div>
 
-  <div class='container-padding'>
+  <div class='container-padding about-me-wrapper'>
     <div class="container">
-      <h2 class="h2-color">About Me</h2>
+      <h2 class="h2-color" style="text-align:center;">About Me</h2>
       <p>Hi there!</p>
       <p>My name is Jared Hutchinson. I graduated uni with a Bachelor of Commerce, I am currently studying a Diploma of IT at
         CoderAcademy, Melbourne.
@@ -126,50 +133,90 @@
         </div>
 
         <div class='skills-flex skill-background2 skills-animation2 skill-text'>
-          <i class="devicon-mongodb-plain-wordmark">
-            <h2 class='skill-name-font'>Mongo.db</h2>
-          </i>
-        </div>
-
-        <div class='skills-flex skill-background1 skills-animation1 skill-text'>
           <i class="devicon-react-original-wordmark">
             <h2 class='skill-name-font'>React.js</h2>
           </i>
         </div>
 
+        <div class='skills-flex skill-background1 skills-animation1 skill-text'>
+          <i class="devicon-mongodb-plain-wordmark">
+            <h2 class='skill-name-font'>Mongo.db</h2>
+          </i>
+        </div>
+
+
       </div>
     </div>
   </div>
 
-  <div class='container-padding'>
+  <div class='container-padding portfolio-wrapper'>
     <div class='container'>
-      <h2 class="h2-color">Portfolio</h2>
-      <p>Currently Working On:</p>
-      <p>CoderAcademy: Third-term Group Assignment</p>
-      <p>A group assignment utilising Javascript frameworks to build a prototype website for a small business. It is a 3-week
-        task and requires regular meetups with our client and co-ordination of roles and responsibilities.</p>
-      <p>Decision-Maker terminal app</p>
+      <h2 class="h2-color" style='text-align:center; margin-bottom:1em;'>Portfolio</h2>
+    </div>
+
+    <div class='current-projects-wrapper'>
+      <div class='container'>
+        <div style='margin: 1em 0em 1em 0em; padding:1em 0em 1em 0em;'>
+          <h3 class="h2-color">Current Projects -</h3>
+          <h4 class="h2-color">CoderAcademy: Third-term Group Assignment</h4>
+          <p>A group assignment utilising Javascript frameworks to build a prototype website for a small business. It is a 3-week
+            task and requires regular meetups with our client and co-ordination of roles and responsibilities.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class='container'>
+      <h4 class="h2-color">Decision-Maker Terminal App</h4>
       <p>A terminal app designed to help its users make a decision through a voting process. Group project early on while taking
         my first steps into Ruby.</p>
 
-      <p>Deluxe Coffee Mugs</p>
+      <h4 class="h2-color">Deluxe Coffee Mugs</h4>
       <p>Mock one-page website for the promotion of coffee mugs. Was created under a 3-hour time constraint.</p>
 
-      <p>Hackathon Project: Eatup</p>
+      <h4 class="h2-color">Hackathon Project: Eatup</h4>
       <p>Users of the site sign up and create a profile. They set their preferences of what food they want to eat on a particular
         day and they get matched up with other people who want to eat the same cuisine. From there, users can send messages
         to each other to arrange a meetup at a eating venue (could also potentially double as a dating app).</p>
 
-      <p>JH BI-FI</p>
+      <h4 class="h2-color">JH BI-FI</h4>
       <p>A 2-sided online electronics marketplace, users can advertise their electronic goods and trade with other users who
-        are interested in buying said goods.</p>
+        are interested in buying said goods. Just don't ask me what Bi-Fi stands for!</p>
     </div>
   </div>
 
   <div class='container-padding'>
-    <div class='container'>
+    <div class='container' style="text-align: center;">
       <h2 class="h2-color">Get in Touch!</h2>
-      <p>Placeholder</p>
+
+      <!-- Download Resume Section -->
+      <div class='container'>
+        <div id='resume'>
+          <div class='download'>
+            <a class='download-button' href='https://www.dropbox.com/s/71kzac3si8abp0o/Jared%20Hutchinson%20resume%20for%20website.docx?dl=0'>
+              <img src='/assets/images/download-icon.png' height='100' width='100'>
+            </a>
+            <h4 class="h2-color" style="margin-bottom:1em;">View Resume</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Request for information -->
+      <div class='container'>
+        <div class="message-box">
+          <h3 class="h2-color" style="margin:1em 0em 1em 0em;">Message Me Directly</h3>
+          <form action="https://formspree.io/jared.hutchinson99@gmail.com" method="POST">
+            <input class="form-display" type="text" name="name" placeholder="Your Name">
+            <br />
+            <input class="form-display" type="email" name="_replyto" placeholder="Your Email">
+            <br />
+            <textarea class="form-display" name="message" placeholder="Message Field" rows="4" cols="25"></textarea>
+            <br />
+            <input class="form-display" type="submit" value="Send">
+            <input type="hidden" name="_next" value="//site.io/thanks.html" />
+          </form>
+        </div>
+      </div>
+
     </div>
   </div>
 

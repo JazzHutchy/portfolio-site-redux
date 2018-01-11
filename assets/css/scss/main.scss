@@ -2,6 +2,25 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
+
+// Modified bootstrap elements
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 3s linear infinite;
+  animation: progress-bar-stripes 3s linear infinite;
+}
+.bg-dark {
+  background-color: #222222 !important;
+}
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.5rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0rem;
+}
+
 a:visited{
   color: white;
   text-decoration:none;
@@ -13,40 +32,42 @@ a:hover{
   text-decoration: none !important;
 }
 
+// Globally Modified HTML Elements
+h1 {
+  color:#ffffff;
+}
 p {
   color: #b2b2b2;
 }
-
 ul {
   list-style-type: none;
 }
-
 li {
   display: inline;
 }
-
 i {
   color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
 }
 
+// Set general background color for the whole site
 .body-color{
   background-color: #1b1b1b;
 }
 
-// Normally this should just be 'h2{}', but it was being un-cooperative for some reason, so this had to be done
+// Title, Logo, Header and Footer
+
+  // Normally this should just be 'h2{}', but it was being un-cooperative for some reason, so this had to be done
 .h2-color{
   color: #ffffff;
 }
-
 .fixed-header{
   position:fixed;
 }
-
-// The fixed navbar cuts off a bit of the page top without this
+  // The fixed navbar cuts off a bit of the page top without this
 .fixed-header-compensation{
   padding-top: 100px;
 }
-
 .header-footer{
   background-color:#2c2c2c;
   width: 100%;
@@ -59,6 +80,10 @@ i {
   height: 20px;
   width: 60px;
   margin: 5px;
+}
+
+.main-title{
+  text-align:center ;
 }
 
 .container-padding{
@@ -74,7 +99,23 @@ i {
   border-radius: 50px;
 }
 
-// Flexbox arrangement for skills section
+.footer-stretch{
+  display: inline-block;
+  height: 150px;
+}
+.align-center{
+  text-align: center;
+}
+.footer-font{
+  color:#64D640;
+}
+
+// About Me Section
+.about-me-wrapper{
+  background-color:#3a3a3a;
+}
+
+// Skills Section
 .skills-flex{
   text-align: center;
   display: flex;
@@ -85,27 +126,43 @@ i {
   width: 25%;
   height: 3em;
 }
-
 .skill-name-font{
   font-size: 24px;
 }
-
 .skill-background1{
   background-color:#7a7a7a;
 }
-
 .skill-background2{
   background-color:#525252;
 }
 
-.footer-stretch{
-  display: inline-block;
-  height: 150px;
+// Porfolio Section
+.portfolio-wrapper{
+  background-color:#3a3a3a;
+}
+.current-projects-wrapper{
+  background-color:#5a5a5a;
 }
 
-.align-center{
-  text-align: center;
+// Contact Section
+.download-button{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
+.message-box{
+  background-color:#838383;
+  border: solid;
+  border-color: #838383;
+  border-radius: 5px;
+}
+.form-display{
+  margin: 5px;
+}
+
+
 
 // Animations
 .main-title-animation {
@@ -119,24 +176,12 @@ i {
 }
 .skill-text h2{
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.75s;
 }
 .skill-text:hover h2{
   opacity: 1;
 }
 
-// .lang-select h2{
-//   opacity: 0;
-//   transition: 0.5s;
-
-//   .lang-select:hover h2{
-//   opacity: 1;
-//   }
-// }
-
-.footer-font{
-  color:#64D640;
-}
 
 // Keyframes for animations
 @keyframes title{
