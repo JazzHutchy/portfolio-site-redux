@@ -27,8 +27,6 @@
   <!-- Enable Fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/33ce5400c0.css">
 
-
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Francois+One|Source+Code+Pro|Ubuntu" rel="stylesheet">
 
@@ -37,19 +35,23 @@
 <body class="body-color">
   <!-- Navigation -->
   <div class="header-footer align-center fixed-header">
-    <nav>
+    <nav class='ul-move'>
       <ul>
         <li class="nav-boxes">
-          <a href="/">Home</a>
+          <a href="#top">Top</a>
         </li>
         <li class="nav-boxes">
-          <a href="/about.html">About</a>
+          <a href="#about">About</a>
         </li>
         <li class="nav-boxes">
-          <a href="/skills.html">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
         <li class="nav-boxes">
-          <a href="/portfolio.html">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-boxes">
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
     </nav>
 
@@ -59,30 +61,43 @@
     </div>
   </div>
 
-  <div class='container-padding'>
-    <div class="container">
-      <h1 class="main-title fixed-header-compensation">Jared Hutchinson</h1>
+  <a class="anchor" id="top"></a>
+  <div class=' container-padding '>
+    <div class='fixed-header-compensation '>
+      <div class='logo-container container-fluid '>
+        <h1 class=' logo-font-j '>J</h1>
+        <h1 class='logo-font-h '>h</h1>
+        <h1 class='logo-ring align-center '></h1>
+      </div>
+    </div>
+
+    <div class='container '>
+      <h1 class='main-title ' style='padding-bottom:100px; '>Jared Hutchinson</h1>
     </div>
   </div>
 
-  <div class='container-padding about-me-wrapper'>
+  <div class='container-padding about-me-wrapper '>
+    <a class="anchor" id="about"></a>
     <div class="container">
       <h2 class="h2-color" style="text-align:center;">About Me</h2>
       <p>Hi there!</p>
-      <p>My name is Jared Hutchinson. I graduated uni with a Bachelor of Commerce, I am currently studying a Diploma of IT at
-        CoderAcademy, Melbourne.
+      <p>My name is Jared. I graduated uni with a Bachelor of Commerce, I am currently studying a Diploma of IT at CoderAcademy,
+        Melbourne.
       </p>
-      <p>I’m not droning away in front of a computer screen, I love exercise, travelling, video games and drowning myself in
-        copious quantities of coffee.</p>
-      <p>The idea of taking up IT seemed logical, as I had surrounded myself with computers growing up. I never greatly understood
-        their intricacies and I was curious to understand the technology that I was accustomed to using every day.</p>
+      <p>I’m not droning away in front of a computer screen, I love chilling with friend, exercise, travelling, netflix, video
+        games and drowning myself in copious quantities of coffee.</p>
+      <p>I was surrounded with technology growing up, yet I never greatly understood their intricacies and I was curious to
+        understand the technology that I was accustomed to using every day. Now I'm climbing my way up the mountain that
+        is IT development and programming.</p>
       <p>Please enjoy your stay. If you're interested in working together feel free to hit me up!</p>
 
     </div>
   </div>
 
+  <!-- Skills -->
   <div class='container-padding'>
     <div class='container'>
+      <a class="anchor" id="skills"></a>
       <h2 class="h2-color" style='text-align: center;'>Skills</h2>
       <div class='row mt-4 justify-content-center'>
 
@@ -144,23 +159,27 @@
           </i>
         </div>
 
-
       </div>
     </div>
   </div>
 
+  <!-- Portfolio -->
   <div class='container-padding portfolio-wrapper'>
     <div class='container'>
+      <a class="anchor" id="portfolio"></a>
       <h2 class="h2-color" style='text-align:center; margin-bottom:1em;'>Portfolio</h2>
     </div>
 
     <div class='current-projects-wrapper'>
       <div class='container'>
-        <div style='margin: 1em 0em 1em 0em; padding:1em 0em 1em 0em;'>
+        <div style='margin: 2em 0em 2em 0em; padding:2em 0em 2em 0em;'>
           <h3 class="h2-color">Current Projects -</h3>
           <h4 class="h2-color">CoderAcademy: Third-term Group Assignment</h4>
           <p>A group assignment utilising Javascript frameworks to build a prototype website for a small business. It is a 3-week
             task and requires regular meetups with our client and co-ordination of roles and responsibilities.</p>
+          <h4 class="h2-color">Site Improvements</h4>
+          <p>I would like to implement Javascript functionality to this website in the forseeable future. I could use it to
+            augment the navigation bar, for instance. Some good photos will also be on the way too I hope!</p>
         </div>
       </div>
     </div>
@@ -184,18 +203,20 @@
     </div>
   </div>
 
+  <!-- Contact Section-->
   <div class='container-padding'>
+    <a class="anchor" id="contact"></a>
     <div class='container' style="text-align: center;">
       <h2 class="h2-color">Get in Touch!</h2>
 
-      <!-- Download Resume Section -->
+      <!-- Download Resume -->
       <div class='container'>
         <div id='resume'>
           <div class='download'>
             <a class='download-button' href='https://www.dropbox.com/s/71kzac3si8abp0o/Jared%20Hutchinson%20resume%20for%20website.docx?dl=0'>
               <img src='/assets/images/download-icon.png' height='100' width='100'>
             </a>
-            <h4 class="h2-color" style="margin-bottom:1em;">View Resume</h4>
+            <h4 class="h2-color" style="margin: 10px 0px 1em 0px;">View Resume</h4>
           </div>
         </div>
       </div>
@@ -209,7 +230,7 @@
             <br />
             <input class="form-display" type="email" name="_replyto" placeholder="Your Email">
             <br />
-            <textarea class="form-display" name="message" placeholder="Message Field" rows="4" cols="25"></textarea>
+            <textarea class="form-display" name="message" placeholder="Message Field" rows="4" cols="19"></textarea>
             <br />
             <input class="form-display" type="submit" value="Send">
             <input type="hidden" name="_next" value="//site.io/thanks.html" />
@@ -237,4 +258,4 @@
 
 <!--ruby -run -e httpd . -p 8000 -->
 <!-- sass --watch assets/css/scss/main.scss:assets/css/css/main.css -->
-<!-- If css is lagging behind press cmd+shift+r -->
+<!-- If css is lagging behind press cmd+shift+r on the webpage -->

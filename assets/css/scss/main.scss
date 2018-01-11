@@ -2,6 +2,19 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
+// Stops Navbar from cutting off top of the page
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+// Align navbar properly with page
+.ul-move ul {
+  padding: 0px 15px 0 10px;
+  text-decoration: none;
+  }
 
 // Modified bootstrap elements
 .progress-bar-animated {
@@ -21,23 +34,29 @@
   border-radius: 0rem;
 }
 
+// Globally Modified HTML Elements
+a{
+  font-family: 'Ubuntu', sans-serif;
+}
 a:visited{
   color: white;
   text-decoration:none;
 }
-
-// Without the '!important' tags the nav hyperlinks wont stop going blue instead of green
+  // Without the '!important' tags the nav hyperlinks wont stop going blue instead of green
 a:hover{
   color: #64D640 !important;
   text-decoration: none !important;
 }
-
-// Globally Modified HTML Elements
 h1 {
   color:#ffffff;
+  font-family: 'Francois One', sans-serif;
+}
+h2{
+  font-family: 'Francois One', sans-serif;
 }
 p {
   color: #b2b2b2;
+  font-family: 'Ubuntu', sans-serif;
 }
 ul {
   list-style-type: none;
@@ -49,15 +68,13 @@ i {
   color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
 }
-
-// Set general background color for the whole site
 .body-color{
   background-color: #1b1b1b;
 }
 
 // Title, Logo, Header and Footer
 
-  // Normally this should just be 'h2{}', but it was being un-cooperative for some reason, so this had to be done
+  // Normally this should just be 'h2{...}', but it was being un-cooperative for some reason, so this had to be done
 .h2-color{
   color: #ffffff;
 }
@@ -66,37 +83,68 @@ i {
 }
   // The fixed navbar cuts off a bit of the page top without this
 .fixed-header-compensation{
-  padding-top: 100px;
+  padding: 90px 0px 20px 0px;
 }
 .header-footer{
   background-color:#2c2c2c;
   width: 100%;
   border-style:solid;
   border-color:#202020;
+  z-index: 1;
 }
 
 .nav-boxes{
   display: inline-block;
   height: 20px;
   width: 60px;
-  margin: 5px;
+  margin: 10px 10px 10px 10px;
 }
 
 .main-title{
-  text-align:center ;
+  text-align:center;
 }
 
 .container-padding{
   padding: 30px 0px 30px 0px;
 }
 
-.logo-circle{
-  width: 100px; 
-  height: 100px; 
-  background: red; 
-  -moz-border-radius: 50px; 
-  -webkit-border-radius: 50px; 
-  border-radius: 50px;
+.logo-container{
+  max-width: 330px;
+}
+
+.logo-font-j{
+  font-size: 150px;
+  font-family: 'Source Code Pro', monospace;
+  color: #64D640;
+  text-align: center;
+  position: relative;
+  top: 170px;
+  left: -25px;
+  margin: 0px 0px -100px 0px;
+  font-weight: bold;
+}
+
+.logo-font-h{
+  font-size: 116px;
+  font-family: 'Source Code Pro', monospace;
+  color: #64D640;
+  text-align: center;
+  position: relative;
+  top: 110px;
+  left: 15px;
+  margin: 0px 0px -100px 0px;
+  font-weight: bold;
+}
+
+.logo-ring{
+  border: solid;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: #64D640;
+  width: 290px;
+  height: 290px;
+  line-height:290px;
+  text-align: center !important;
 }
 
 .footer-stretch{
@@ -141,7 +189,7 @@ i {
   background-color:#3a3a3a;
 }
 .current-projects-wrapper{
-  background-color:#5a5a5a;
+  background-color:rgb(0, 80, 0);
 }
 
 // Contact Section
