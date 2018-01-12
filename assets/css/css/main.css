@@ -1,57 +1,236 @@
-/*
-Error: Invalid CSS after "...gle-page-layout": expected "{", was "}"
-        on line 101 of assets/css/scss/main.scss
+a.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden; }
 
-96: }
-97: p {
-98:   color: #b2b2b2;
-99:   font-family: 'Ubuntu', sans-serif;
-100: >>>>>>> single-page-layout
-101: }
-102: ul {
-103:   list-style-type: none;
-104: }
-105: li {
-106:   display: inline;
+.ul-move ul {
+  padding: 0px 15px 0 10px;
+  text-decoration: none; }
 
-Backtrace:
-assets/css/scss/main.scss:101
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:677:in `block'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:697:in `block_child'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:678:in `block'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:670:in `ruleset'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/usr/local/lib/ruby/gems/2.4.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...gle-page-layout\": expected \"{\", was \"}\"\A         on line 101 of assets/css/scss/main.scss\A \A 96: }\A 97: p {\A 98:   color: #b2b2b2;\A 99:   font-family: 'Ubuntu', sans-serif;\A 100: >>>>>>> single-page-layout\A 101: }\A 102: ul {\A 103:   list-style-type: none;\A 104: }\A 105: li {\A 106:   display: inline;"; }
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 3s linear infinite;
+  animation: progress-bar-stripes 3s linear infinite; }
+
+.bg-dark {
+  background-color: #222222 !important; }
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 0.5rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 0rem; }
+
+a {
+  font-family: 'Ubuntu', sans-serif; }
+
+a:active {
+  color: white;
+  text-decoration: none; }
+
+a:link {
+  color: white;
+  text-decoration: none; }
+
+a:visited {
+  color: white;
+  text-decoration: none; }
+
+a:hover {
+  color: #64D640 !important;
+  text-decoration: none !important; }
+
+h1 {
+  color: #ffffff;
+  font-family: 'Francois One', sans-serif; }
+
+h2 {
+  font-family: 'Francois One', sans-serif; }
+
+p {
+  color: #b2b2b2;
+  font-family: 'Ubuntu', sans-serif; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline; }
+
+i {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif; }
+
+.body-color {
+  background-color: #1b1b1b; }
+
+.h2-color {
+  color: #ffffff; }
+
+.fixed-header {
+  position: fixed; }
+
+.header-footer {
+  background-color: #2c2c2c;
+  width: 100%;
+  border-style: solid;
+  border-color: #202020;
+  z-index: 1; }
+
+.nav-boxes {
+  display: inline-block;
+  height: 20px;
+  width: 60px;
+  margin: 10px 10px 10px 10px; }
+
+.main-title {
+  text-align: center;
+  font-size: 60px; }
+
+.container-padding {
+  padding: 50px 0px 50px 0px; }
+
+.logo-container {
+  max-width: 330px; }
+
+.logo-font-j {
+  font-size: 150px;
+  font-family: 'Source Code Pro', monospace;
+  color: #64D640;
+  text-align: center;
+  position: relative;
+  top: 170px;
+  left: -25px;
+  margin: 0px 0px -100px 0px;
+  font-weight: bold; }
+
+.logo-font-h {
+  font-size: 116px;
+  font-family: 'Source Code Pro', monospace;
+  color: #64D640;
+  text-align: center;
+  position: relative;
+  top: 110px;
+  left: 15px;
+  margin: 0px 0px -100px 0px;
+  font-weight: bold; }
+
+.main-title {
+  animation: animate 5s linear infinite; }
+
+.logo-ring {
+  border: solid;
+  border-width: 10px;
+  border-radius: 50%;
+  border-color: #64D640;
+  width: 290px;
+  height: 290px;
+  line-height: 290px;
+  text-align: center !important; }
+
+.footer-stretch {
+  display: inline-block;
+  height: 150px; }
+
+.align-center {
+  text-align: center; }
+
+.footer-font {
+  color: #64D640; }
+
+.about-me-wrapper {
+  background-color: #3a3a3a; }
+
+.skills-flex {
+  text-align: center;
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 60px;
+  width: 25%;
+  height: 3em; }
+
+.skill-name-font {
+  font-size: 24px; }
+
+.skill-background1 {
+  background-color: #7a7a7a; }
+
+.skill-background2 {
+  background-color: #525252; }
+
+.portfolio-wrapper {
+  background-color: #3a3a3a; }
+
+.current-projects-wrapper {
+  background-color: #005000; }
+
+.download-button {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; }
+
+.message-box-outer {
+  background-color: #838383;
+  border: solid;
+  border-color: #838383;
+  border-radius: 5px;
+  padding: 20px 0px 20px 0px; }
+
+.message-box-inner {
+  background-color: #535353;
+  border: solid;
+  border-color: #535353;
+  border-radius: 5px;
+  margin: auto;
+  width: 50%; }
+
+.form-display {
+  margin: 5px; }
+
+.main-title-animation {
+  animation: title 3s linear infinite; }
+
+.skills-animation1:hover {
+  animation: skills1 4s linear infinite; }
+
+.skills-animation2:hover {
+  animation: skills2 4s linear infinite; }
+
+.skill-text h2 {
+  opacity: 0;
+  transition: 0.75s; }
+
+.skill-text:hover h2 {
+  opacity: 1; }
+
+@keyframes skills1 {
+  0% {
+    background-color: #7a7a7a; }
+  25% {
+    background-color: green; }
+  50% {
+    background-color: #64D640; }
+  75% {
+    background-color: green; }
+  100% {
+    background-color: #7a7a7a; } }
+@keyframes skills2 {
+  0% {
+    background-color: #525252; }
+  25% {
+    background-color: green; }
+  50% {
+    background-color: #64D640; }
+  75% {
+    background-color: green; }
+  100% {
+    background-color: #525252; } }
+
+/*# sourceMappingURL=main.css.map */
