@@ -73,9 +73,6 @@ i {
 .fixed-header {
   position: fixed; }
 
-.fixed-header-compensation {
-  padding: 90px 0px 20px 0px; }
-
 .header-footer {
   background-color: #2c2c2c;
   width: 100%;
@@ -90,10 +87,11 @@ i {
   margin: 10px 10px 10px 10px; }
 
 .main-title {
-  text-align: center; }
+  text-align: center;
+  font-size: 60px; }
 
 .container-padding {
-  padding: 30px 0px 30px 0px; }
+  padding: 50px 0px 50px 0px; }
 
 .logo-container {
   max-width: 330px; }
@@ -175,11 +173,20 @@ i {
   margin-right: auto;
   width: 30%; }
 
-.message-box {
+.message-box-outer {
   background-color: #838383;
   border: solid;
   border-color: #838383;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding: 20px 0px 20px 0px; }
+
+.message-box-inner {
+  background-color: #535353;
+  border: solid;
+  border-color: #535353;
+  border-radius: 5px;
+  margin: auto;
+  width: 50%; }
 
 .form-display {
   margin: 5px; }
@@ -200,15 +207,6 @@ i {
 .skill-text:hover h2 {
   opacity: 1; }
 
-@keyframes title {
-  25% {
-    color: green; }
-  50% {
-    color: greenyellow; }
-  75% {
-    color: green; }
-  100% {
-    color: black; } }
 @keyframes skills1 {
   0% {
     background-color: #7a7a7a; }
