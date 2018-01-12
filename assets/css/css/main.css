@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "...gle-page-layout": expected "{", was "}"
-        on line 93 of assets/css/scss/main.scss
+        on line 101 of assets/css/scss/main.scss
 
-88: }
-89: p {
-90:   color: #b2b2b2;
-91:   font-family: 'Ubuntu', sans-serif;
-92: >>>>>>> single-page-layout
-93: }
-94: ul {
-95:   list-style-type: none;
 96: }
-97: li {
-98:   display: inline;
+97: p {
+98:   color: #b2b2b2;
+99:   font-family: 'Ubuntu', sans-serif;
+100: >>>>>>> single-page-layout
+101: }
+102: ul {
+103:   list-style-type: none;
+104: }
+105: li {
+106:   display: inline;
 
 Backtrace:
-assets/css/scss/main.scss:93
+assets/css/scss/main.scss:101
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
 /usr/local/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1203:in `tok!'
@@ -54,4 +54,4 @@ assets/css/scss/main.scss:93
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...gle-page-layout\": expected \"{\", was \"}\"\A         on line 93 of assets/css/scss/main.scss\A \A 88: }\A 89: p {\A 90:   color: #b2b2b2;\A 91:   font-family: 'Ubuntu', sans-serif;\A 92: >>>>>>> single-page-layout\A 93: }\A 94: ul {\A 95:   list-style-type: none;\A 96: }\A 97: li {\A 98:   display: inline;"; }
+  content: "Error: Invalid CSS after \"...gle-page-layout\": expected \"{\", was \"}\"\A         on line 101 of assets/css/scss/main.scss\A \A 96: }\A 97: p {\A 98:   color: #b2b2b2;\A 99:   font-family: 'Ubuntu', sans-serif;\A 100: >>>>>>> single-page-layout\A 101: }\A 102: ul {\A 103:   list-style-type: none;\A 104: }\A 105: li {\A 106:   display: inline;"; }

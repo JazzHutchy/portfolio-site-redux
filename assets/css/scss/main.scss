@@ -70,6 +70,14 @@ a.anchor {
 a{
   font-family: 'Ubuntu', sans-serif;
 }
+a:active{
+  color: white;
+  text-decoration:none;
+}
+a:link{
+  color: white;
+  text-decoration:none;
+}
 a:visited{
   color: white;
   text-decoration:none;
@@ -114,10 +122,6 @@ i {
 .fixed-header{
   position:fixed;
 }
-  // The fixed navbar cuts off a bit of the page top without this
-.fixed-header-compensation{
-  padding: 90px 0px 20px 0px;
-}
 .header-footer{
   background-color:#2c2c2c;
   width: 100%;
@@ -125,26 +129,22 @@ i {
   border-color:#202020;
   z-index: 1;
 }
-
 .nav-boxes{
   display: inline-block;
   height: 20px;
   width: 60px;
   margin: 10px 10px 10px 10px;
 }
-
 .main-title{
   text-align:center;
+  font-size: 60px;
 }
-
 .container-padding{
-  padding: 30px 0px 30px 0px;
+  padding: 50px 0px 50px 0px;
 }
-
 .logo-container{
   max-width: 330px;
 }
-
 .logo-font-j{
   font-size: 150px;
   font-family: 'Source Code Pro', monospace;
@@ -156,7 +156,6 @@ i {
   margin: 0px 0px -100px 0px;
   font-weight: bold;
 }
-
 .logo-font-h{
   font-size: 116px;
   font-family: 'Source Code Pro', monospace;
@@ -168,11 +167,14 @@ i {
   margin: 0px 0px -100px 0px;
   font-weight: bold;
 }
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .main-title {
   animation: animate 5s linear infinite;
 =======
+=======
+>>>>>>> single-page-layout
 .logo-ring{
   border: solid;
   border-width: 10px;
@@ -184,7 +186,6 @@ i {
   text-align: center !important;
 >>>>>>> single-page-layout
 }
-
 .footer-stretch{
   display: inline-block;
   height: 150px;
@@ -238,17 +239,24 @@ i {
     margin-right: auto;
     width: 30%;
 }
-.message-box{
+.message-box-outer{
   background-color:#838383;
   border: solid;
   border-color: #838383;
   border-radius: 5px;
+  padding: 20px 0px 20px 0px;
+}
+.message-box-inner{
+  background-color:#535353;
+  border: solid;
+  border-color: #535353;
+  border-radius: 5px;
+  margin:auto;
+  width:50%;
 }
 .form-display{
   margin: 5px;
 }
-
-
 
 // Animations
 .main-title-animation {
@@ -270,6 +278,7 @@ i {
 
 
 // Keyframes for animations
+<<<<<<< HEAD
 @keyframes title{
     25% {
         color: green;
@@ -283,6 +292,22 @@ i {
         color: green;
       }
 }
+=======
+// @keyframes title{
+//     25% {
+//         color: green;
+//       }
+//       50% {
+//         color: greenyellow;
+//       } 
+//       75% {
+//         color: green;
+//       }
+//       100% {
+//         color: black;
+//       }
+// }
+>>>>>>> single-page-layout
 @keyframes skills1{
   0% {
     background-color: #7a7a7a;
@@ -317,11 +342,3 @@ i {
     background-color: #525252;
   }
 }
-// @keyframes fade-in{
-//   0%{
-//     opacity: 0;
-//   }
-//   100%{
-//     opacity: 1;
-//   }
-// }

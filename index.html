@@ -12,13 +12,17 @@
   <meta property="author" content="Jared Hutchinson">
   <meta property="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Favicon -->
+  <link rel='icon' href='favicon.ico' type='image/x-icon' />
+
   <title>Jared Hutchinson</title>
 
-  <!-- Enable Bootstrap -->
+
+  <!-- Enable Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
 
-  <!-- CSS (can override bootstrap elements) -->
+  <!-- CSS (overrides bootstrap elements due to position below bootstrap CSS, lets me modify bootstrap) -->
   <link rel="stylesheet" href="/assets/css/css/main.css">
 
   <!-- Enable Devicons -->
@@ -37,19 +41,19 @@
   <div class="header-footer align-center fixed-header">
     <nav class='ul-move'>
       <ul>
-        <li class="nav-boxes">
+        <li class="nav-boxes active">
           <a href="#top">Top</a>
         </li>
-        <li class="nav-boxes">
+        <li class="nav-boxes active">
           <a href="#about">About</a>
         </li>
-        <li class="nav-boxes">
+        <li class="nav-boxes active">
           <a href="#skills">Skills</a>
         </li>
-        <li class="nav-boxes">
+        <li class="nav-boxes active">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li class="nav-boxes">
+        <li class="nav-boxes active">
           <a href="#contact">Contact</a>
         </li>
       </ul>
@@ -62,30 +66,29 @@
   </div>
 
   <a class="anchor" id="top"></a>
-  <div class=' container-padding '>
-    <div class='fixed-header-compensation '>
-      <div class='logo-container container-fluid '>
-        <h1 class=' logo-font-j '>J</h1>
-        <h1 class='logo-font-h '>h</h1>
-        <h1 class='logo-ring align-center '></h1>
-      </div>
+  <div class=' container-padding'>
+    <div class='logo-container container-fluid'>
+      <h1 class=' logo-font-j'>J</h1>
+      <h1 class='logo-font-h'>h</h1>
+      <h1 class='logo-ring align-center'></h1>
     </div>
 
-    <div class='container '>
-      <h1 class='main-title ' style='padding-bottom:100px; '>Jared Hutchinson</h1>
+    <div class='container'>
+      <h1 class='main-title' style='padding-bottom:100px;'>Jared
+        <br> Hutchinson</h1>
     </div>
   </div>
 
-  <div class='container-padding about-me-wrapper '>
+  <div class='container-padding about-me-wrapper'>
     <a class="anchor" id="about"></a>
     <div class="container">
       <h2 class="h2-color" style="text-align:center;">About Me</h2>
       <p>Hi there!</p>
-      <p>My name is Jared. I graduated uni with a Bachelor of Commerce, I am currently studying a Diploma of IT at CoderAcademy,
+      <p>My name is Jared. I graduated uni with a Bachelor of Commerce, I'm currently studying a Diploma of IT at CoderAcademy,
         Melbourne.
       </p>
-      <p>I’m not droning away in front of a computer screen, I love chilling with friend, exercise, travelling, netflix, video
-        games and drowning myself in copious quantities of coffee.</p>
+      <p>When I'm not in front of a computer screen, I love chilling with friends, exercise, travelling, netflix, video games
+        and drowning myself in copious quantities of coffee.</p>
       <p>I was surrounded with technology growing up, yet I never greatly understood their intricacies and I was curious to
         understand the technology that I was accustomed to using every day. Now I'm climbing my way up the mountain that
         is IT development and programming.</p>
@@ -207,7 +210,7 @@
   <div class='container-padding'>
     <a class="anchor" id="contact"></a>
     <div class='container' style="text-align: center;">
-      <h2 class="h2-color">Get in Touch!</h2>
+      <h2 class="h2-color">Get In Touch!</h2>
 
       <!-- Download Resume -->
       <div class='container'>
@@ -223,18 +226,20 @@
 
       <!-- Request for information -->
       <div class='container'>
-        <div class="message-box">
-          <h3 class="h2-color" style="margin:1em 0em 1em 0em;">Message Me Directly</h3>
-          <form action="https://formspree.io/jared.hutchinson99@gmail.com" method="POST">
-            <input class="form-display" type="text" name="name" placeholder="Your Name">
-            <br />
-            <input class="form-display" type="email" name="_replyto" placeholder="Your Email">
-            <br />
-            <textarea class="form-display" name="message" placeholder="Message Field" rows="4" cols="19"></textarea>
-            <br />
-            <input class="form-display" type="submit" value="Send">
-            <input type="hidden" name="_next" value="//site.io/thanks.html" />
-          </form>
+        <div class='message-box-outer'>
+          <div class='message-box-inner'>
+            <h3 class="h2-color" style="margin:1em 0em 1em 0em;">Message Me Directly</h3>
+            <form action="https://formspree.io/jared.hutchinson99@gmail.com" method="POST">
+              <input class="form-display" type="text" name="name" placeholder="Your Name">
+              <br />
+              <input class="form-display" type="email" name="_replyto" placeholder="Your Email">
+              <br />
+              <textarea class="form-display" name="message" placeholder="Message Field" rows="4" cols="19"></textarea>
+              <br />
+              <input class="form-display" type="submit" value="Send">
+              <input type="hidden" name="_next" value="//site.io/thanks.html" />
+            </form>
+          </div>
         </div>
       </div>
 
