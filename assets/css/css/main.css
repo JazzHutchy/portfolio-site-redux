@@ -4,13 +4,13 @@ a.anchor {
   top: -100px;
   visibility: hidden; }
 
-.ul-move ul {
-  padding: 0px 15px 0 10px;
+.ul-remove-margin ul {
+  padding: 0px 0px 0px 0px;
   text-decoration: none; }
 
 .progress-bar-animated {
-  -webkit-animation: progress-bar-stripes 3s linear infinite;
-  animation: progress-bar-stripes 3s linear infinite; }
+  -webkit-animation: progress-bar-stripes 4s linear infinite;
+  animation: progress-bar-stripes 4s linear infinite; }
 
 .bg-dark {
   background-color: #222222 !important; }
@@ -52,7 +52,8 @@ h2 {
 
 p {
   color: #b2b2b2;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem; }
 
 ul {
   list-style-type: none; }
@@ -82,9 +83,11 @@ i {
 
 .nav-boxes {
   display: inline-block;
-  height: 20px;
-  width: 60px;
-  margin: 10px 10px 10px 10px; }
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 0px 10px;
+  text-transform: uppercase; }
 
 .main-title {
   text-align: center;
@@ -103,7 +106,7 @@ i {
   text-align: center;
   position: relative;
   top: 170px;
-  left: -25px;
+  left: -14px;
   margin: 0px 0px -100px 0px;
   font-weight: bold; }
 
@@ -114,7 +117,7 @@ i {
   text-align: center;
   position: relative;
   top: 110px;
-  left: 15px;
+  left: 25px;
   margin: 0px 0px -100px 0px;
   font-weight: bold; }
 
@@ -129,7 +132,8 @@ i {
   width: 290px;
   height: 290px;
   line-height: 290px;
-  text-align: center !important; }
+  margin-left: auto;
+  margin-right: auto; }
 
 .footer-stretch {
   display: inline-block;
@@ -154,6 +158,10 @@ i {
   width: 25%;
   height: 3em; }
 
+.skills-position {
+  position: relative;
+  top: 14px; }
+
 .skill-name-font {
   font-size: 24px; }
 
@@ -174,20 +182,20 @@ i {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 30%; }
+  width: 20%; }
 
 .message-box-outer {
   background-color: #838383;
   border: solid;
   border-color: #838383;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 20px 0px 20px 0px; }
 
 .message-box-inner {
   background-color: #535353;
   border: solid;
   border-color: #535353;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: auto;
   width: 50%; }
 
