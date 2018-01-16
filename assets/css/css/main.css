@@ -172,10 +172,10 @@ i {
   background-color: #525252; }
 
 .portfolio-wrapper {
-  background: linear-gradient(180deg, #294a1e, #3b8f21, #22331d); }
+  background-color: #393939; }
 
 .current-projects-wrapper {
-  background-color: #005000; }
+  background: linear-gradient(180deg, #294a1e, #3b8f21, #22331d); }
 
 .download {
   text-align: center;
