@@ -17,10 +17,10 @@ One of the biggest problems I faced with my previous attempt at building a site 
 Because gaming is one of my long-time hobbies, I thought I should base my site on gaming product websites:
 
 - Razer: https://www2.razerzone.com/au-en
-![alt text](https://raw.githubusercontent.com/JazzHutchy/portfolio-site-redux/edit/master/to/img.png)
-
 - Epic Gear: https://www.epicgear.com/en/news
 - Mad Katz: http://www.madcatz.com/
+
+Decided that the site should be based off the razer colour scheme (ie. black, white, grey, green).
 
 ## Usability Heuristics
 - Was initially thinking of trying a multi-page website, but most likely going to scrap the idea as it doesn't offer the best UX given the level of content. Created a seperate branch for both, just in case.
@@ -41,7 +41,7 @@ https://www.figma.com/file/L6ttW0diYnBnTviE8JEzoGbk/portfolio-redux
 ![Color scheme](https://github.com/JazzHutchy/portfolio-site-redux/blob/ongoing-improvements/readme-images/color-scheme.png)
 
 ## Logo
-![Color scheme](https://github.com/JazzHutchy/portfolio-site-redux/blob/ongoing-improvements/readme-images/logo.svg)
+![Logo](https://github.com/JazzHutchy/portfolio-site-redux/blob/ongoing-improvements/readme-images/logo.svg)
 
 # Challenges
 - Idea to redesign the site started directly after I finished my presentation, but I held off my motivation to actually doing the redesign until much later.
