@@ -48,7 +48,8 @@ h1 {
   font-family: 'Francois One', sans-serif; }
 
 h2 {
-  font-family: 'Francois One', sans-serif; }
+  font-family: 'Francois One', sans-serif;
+  font-size: 40px; }
 
 p {
   color: #b2b2b2;
@@ -175,7 +176,7 @@ i {
   background-color: #393939; }
 
 .current-projects-wrapper {
-  background: linear-gradient(180deg, #294a1e, #3b8f21, #22331d); }
+  background: linear-gradient(180deg, #104200, #306f1d, #3b8f21, #306f1d, #104200); }
 
 .download {
   text-align: center;
@@ -202,7 +203,7 @@ i {
   border-color: #535353;
   border-radius: 10px;
   margin: auto;
-  width: 50%; }
+  width: 90%; }
 
 .form-display {
   margin: 5px; }

@@ -10,9 +10,16 @@ function add() {
   var y = 9
   var z = x + y + 5
 
-  document.write(z)
+  document.write("<br>" + z + "<br>")
   return
+}
+
+function loop() {
+  for (x = 1; x <= 8; x++) {
+    document.write(" " + x + "loop" + " ")
+  }
 }
 
 sentence()
 add()
+loop()
