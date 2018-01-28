@@ -1,9 +1,12 @@
-# portfolio-site-redux
+# Portfolio-Site-Redux
 A redo of my first portfolio site.
 
 I was less than impressed with my previous portfolio website, so I wanted to give it another shot.
 
-# Audience
+Now deployed!
+Link: https://jaredhutchinson.netlify.com/
+
+## Audience
 For potential employers, potential partners and anyone with enough curiousity.
 
 # Design Decisions
@@ -14,10 +17,10 @@ One of the biggest problems I faced with my previous attempt at building a site 
 Because gaming is one of my long-time hobbies, I thought I should base my site on gaming product websites:
 
 - Razer: https://www2.razerzone.com/au-en
-![alt text](https://raw.githubusercontent.com/JazzHutchy/portfolio-site-redux/edit/master/to/img.png)
-
 - Epic Gear: https://www.epicgear.com/en/news
 - Mad Katz: http://www.madcatz.com/
+
+Decided that the site should be based off the razer colour scheme (ie. black, white, grey, green).
 
 ## Usability Heuristics
 - Was initially thinking of trying a multi-page website, but most likely going to scrap the idea as it doesn't offer the best UX given the level of content. Created a seperate branch for both, just in case.
@@ -25,13 +28,25 @@ Because gaming is one of my long-time hobbies, I thought I should base my site o
 - There should easy access to downloading my resumes on every page of the site.
 - After a long hiatus, I have picked up Javascript as part of my coding repotoire. I intend to use it to create dynamic features for my website.
 
-# Wireframes
+## Wireframes
+https://www.figma.com/file/L6ttW0diYnBnTviE8JEzoGbk/portfolio-redux
 
 # Style Guide
+## Font:
+- Francois One
+- Ubuntu
+- Source Code Pro
 
-# Logo
+## General Color Scheme:
+![Color scheme](https://github.com/JazzHutchy/portfolio-site-redux/blob/ongoing-improvements/readme-images/color-scheme.png)
+
+## Logo
+![Logo](https://github.com/JazzHutchy/portfolio-site-redux/blob/ongoing-improvements/readme-images/logo.svg)
 
 # Challenges
+- Idea to redesign the site started directly after I finished my presentation, but I held off my motivation to actually doing the redesign until much later.
+- CSS was quite time-consuming, but that is to be somewhat expected.
+- I didn't know any javascript when I began the redesign, I am now attempting to learn more about it to enchance the features of my site.
 
 # Criteria to address (for personal reference)
 Compliant website using HTML and CSS
@@ -55,4 +70,3 @@ Published website
 8. Consistent use of fonts, colours
 9. Navigation
 10. Optimised images
-
