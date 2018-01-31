@@ -3,7 +3,9 @@
 <desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(-5035 -115)">
 <g id="Group">
-<g id="Ellipse">
+
+<!-- Logo ring -->
+<g class='ring' id="Ellipse">
 <mask id="mask0_outline_ins">
 <use xlink:href="#path0_fill" fill="white" transform="translate(5035 115)"/>
 </mask>
@@ -11,10 +13,14 @@
 <use xlink:href="#path1_stroke_2x" transform="translate(5035 115)" fill="#64D640"/>
 </g>
 </g>
-<g id="J">
+
+<!-- J letter -->
+<g class='j-letter' id="J">
 <use xlink:href="#path2_fill" transform="translate(5095 159)" fill="#64D640"/>
 </g>
-<g id="h">
+
+<!-- H letter -->
+<g class='h-letter' id="h">
 <use xlink:href="#path3_fill" transform="translate(5130 176)" fill="#64D640"/>
 <mask id="mask1_outline_out">
 <rect id="mask1_outline_inv" fill="white" x="5" y="18" width="33" height="52" transform="translate(5130 176)"/>
@@ -26,6 +32,7 @@
 </g>
 </g>
 </g>
+
 <defs>
 <path id="path0_fill" d="M 200 100C 200 155.228 155.228 200 100 200C 44.7715 200 0 155.228 0 100C 0 44.7715 44.7715 0 100 0C 155.228 0 200 44.7715 200 100Z"/>
 <path id="path1_stroke_2x" d="M 196 100C 196 153.019 153.019 196 100 196L 100 204C 157.438 204 204 157.438 204 100L 196 100ZM 100 196C 46.9807 196 4 153.019 4 100L -4 100C -4 157.438 42.5624 204 100 204L 100 196ZM 4 100C 4 46.9807 46.9807 4 100 4L 100 -4C 42.5624 -4 -4 42.5624 -4 100L 4 100ZM 100 4C 153.019 4 196 46.9807 196 100L 204 100C 204 42.5624 157.438 -4 100 -4L 100 4Z"/>

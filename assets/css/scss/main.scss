@@ -115,6 +115,7 @@ i {
 }
 .logo-container{
   max-width: 330px;
+  padding: 150px 0px 20px 0px;
 }
 .logo-font-j{
   font-size: 150px;
@@ -137,9 +138,6 @@ i {
   left: 25px;
   margin: 0px 0px -100px 0px;
   font-weight: bold;
-}
-.main-title {
-  animation: animate 5s linear infinite;
 }
 .logo-ring{
   border: solid;
@@ -237,6 +235,7 @@ i {
 .main-title-animation {
   animation: title 3s linear infinite;
 }
+
 .skills-animation1:hover{
   animation: skills1 4s linear infinite;
 }
@@ -253,20 +252,20 @@ i {
 
 
 // Keyframes for animations
-// @keyframes title{
-//     25% {
-//         color: green;
-//       }
-//       50% {
-//         color: greenyellow;
-//       } 
-//       75% {
-//         color: green;
-//       }
-//       100% {
-//         color: black;
-//       }
-// }
+@keyframes title{
+    25% {
+        color: green;
+      }
+      50% {
+        color: greenyellow;
+      } 
+      75% {
+        color: green;
+      }
+      100% {
+        color: black;
+      }
+}
 @keyframes skills1{
   0% {
     background-color: #7a7a7a;
