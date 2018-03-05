@@ -2,6 +2,17 @@
 // font-family: 'Ubuntu', sans-serif;
 // font-family: 'Source Code Pro', monospace;
 
+// No highlighting text
+.no-highlight{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
 // Stops Navbar from cutting off top of the page
 a.anchor {
   display: block;
@@ -96,7 +107,7 @@ i {
   width: 100%;
   border-style:solid;
   border-color:#202020;
-  z-index: 1;
+  z-index: 2;
 }
 .nav-boxes{
   display: inline-block;
@@ -109,6 +120,11 @@ i {
 .main-title{
   text-align:center;
   font-size: 60px;
+  cursor: default;
+}
+.sticky-title{
+  position: relative;
+  z-index: 1;
 }
 .container-padding{
   padding: 50px 0px 50px 0px;

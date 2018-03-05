@@ -39,7 +39,7 @@
 <body class="body-color">
   <!-- Navigation -->
   <div class="header-footer align-center fixed-header">
-    <nav class='ul-remove-margin'>
+    <nav class='ul-remove-margin no-highlight'>
       <ul>
         <li class="nav-boxes active">
           <a href="#top">Top</a>
@@ -66,17 +66,18 @@
   </div>
 
   <a class="anchor" id="top"></a>
-  <div class=' container-padding'>
+  <div class='container-padding'>
     <div class='logo-container container-fluid'>
       <!-- <h1 class='logo-font-j'>J</h1>
       <h1 class='logo-font-h'>h</h1>
       <h1 class='logo-ring align-center'></h1> -->
-      <img src="/readme-images/logo.svg" width='100%' alt="logo">
+      <img class='sticky-title' src="/readme-images/logo.svg" width='100%' alt="logo">
     </div>
 
     <div class='container'>
-      <h1 class='main-title' style='padding-bottom:100px;'>Jared
-        <br> Hutchinson</h1>
+      <h1 class='main-title sticky-title no-highlight' style='padding-bottom:100px'>Jared
+        <br> Hutchinson
+      </h1>
     </div>
   </div>
 
@@ -246,7 +247,7 @@
           <div class='message-box-inner'>
             <h3 class="h2-color" style="margin:1em 0em 1em 0em;">Message Me Directly</h3>
             <form action="https://formspree.io/jared.hutchinson99@gmail.com" method="POST">
-              <input class="form-display" type="text" name="name" placeholder="Your Name" size="26" autofocus required/>
+              <input class="form-display" type="text" name="name" placeholder="Your Name" size="26" required/>
               <br />
               <input class="form-display" type="email" name="_replyto" placeholder="Your Email" size="26" required/>
               <br />
@@ -276,7 +277,3 @@
 </body>
 
 </html>
-
-<!--ruby -run -e httpd . -p 8000 -->
-<!-- sass --watch assets/css/scss/main.scss:assets/css/css/main.css -->
-<!-- If css is lagging behind press cmd+shift+r on the webpage -->
