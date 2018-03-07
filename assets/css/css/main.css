@@ -11,7 +11,7 @@
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-     supported by Chrome and Opera */ }
+               supported by Chrome and Opera */ }
 
 a.anchor {
   display: block;
@@ -35,12 +35,12 @@ a.anchor {
   display: flex;
   height: 0.5rem;
   overflow: hidden;
-  font-size: .75rem;
+  font-size: 0.75rem;
   background-color: #e9ecef;
   border-radius: 0rem; }
 
 a {
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 a:active {
   color: white;
@@ -55,20 +55,20 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: #64D640 !important;
+  color: #64d640 !important;
   text-decoration: none !important; }
 
 h1 {
   color: #ffffff;
-  font-family: 'Francois One', sans-serif; }
+  font-family: "Francois One", sans-serif; }
 
 h2 {
-  font-family: 'Francois One', sans-serif;
+  font-family: "Francois One", sans-serif;
   font-size: 40px; }
 
 p {
   color: #b2b2b2;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.2rem; }
 
 ul {
@@ -79,7 +79,7 @@ li {
 
 i {
   color: #ffffff;
-  font-family: 'Ubuntu', sans-serif; }
+  font-family: "Ubuntu", sans-serif; }
 
 .body-color {
   background-color: #1b1b1b; }
@@ -123,8 +123,8 @@ i {
 
 .logo-font-j {
   font-size: 150px;
-  font-family: 'Source Code Pro', monospace;
-  color: #64D640;
+  font-family: "Source Code Pro", monospace;
+  color: #64d640;
   text-align: center;
   position: relative;
   top: 170px;
@@ -134,8 +134,8 @@ i {
 
 .logo-font-h {
   font-size: 116px;
-  font-family: 'Source Code Pro', monospace;
-  color: #64D640;
+  font-family: "Source Code Pro", monospace;
+  color: #64d640;
   text-align: center;
   position: relative;
   top: 110px;
@@ -147,7 +147,7 @@ i {
   border: solid;
   border-width: 10px;
   border-radius: 50%;
-  border-color: #64D640;
+  border-color: #64d640;
   width: 290px;
   height: 290px;
   line-height: 290px;
@@ -162,10 +162,22 @@ i {
   text-align: center; }
 
 .footer-font {
-  color: #64D640; }
+  color: #64d640; }
 
 .about-me-wrapper {
   background-color: #3a3a3a; }
+
+.picture-padding {
+  padding: 50px 0px; }
+
+.about-me-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
+  width: 400px;
+  border: solid 10px grey;
+  border-radius: 10px; }
 
 .skills-flex {
   text-align: center;
@@ -224,16 +236,17 @@ i {
   width: 90%; }
 
 .form-display {
-  margin: 5px; }
+  margin: 5px;
+  width: 80%; }
 
-.main-title-animation {
-  animation: title 3s linear infinite; }
+.send-button {
+  width: 40%; }
 
 .skills-animation1:hover {
-  animation: skills1 4s linear infinite; }
+  animation: skills1 0.5s linear 1 forwards; }
 
 .skills-animation2:hover {
-  animation: skills2 4s linear infinite; }
+  animation: skills2 0.5s linear 1 forwards; }
 
 .skill-text h2 {
   opacity: 0;
@@ -254,25 +267,17 @@ i {
 @keyframes skills1 {
   0% {
     background-color: #7a7a7a; }
-  25% {
-    background-color: green; }
   50% {
-    background-color: #64D640; }
-  75% {
     background-color: green; }
   100% {
-    background-color: #7a7a7a; } }
+    background-color: #5eae46; } }
 @keyframes skills2 {
   0% {
     background-color: #525252; }
-  25% {
-    background-color: green; }
   50% {
-    background-color: #64D640; }
-  75% {
     background-color: green; }
   100% {
-    background-color: #525252; } }
+    background-color: #5eae46; } }
 @media (max-width: 500px) {
   .nav-boxes {
     display: inline-block;
