@@ -176,7 +176,24 @@ i {
   height: 550px;
   width: 400px;
   border: solid 10px grey;
-  border-radius: 10px; }
+  border-radius: 10px;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: filter 1s; }
+
+.about-me-picture:hover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
+  width: 400px;
+  border: solid 10px grey;
+  border-radius: 10px;
+  -webkit-filter: none;
+  /* Safari 6.0 - 9.0 */
+  filter: none;
+  transition: filter 1s; }
 
 .skills-flex {
   text-align: center;
@@ -232,19 +249,22 @@ i {
   border-color: #535353;
   border-radius: 10px;
   margin: auto;
-  width: 90%; }
+  width: 90%;
+  padding: 10px 0px 20px 0px; }
 
 .form-display {
   margin: 5px;
   width: 80%; }
 
 .send-button {
-  width: 40%; }
+  width: 20%; }
 
 .skills-animation1:hover {
+  -webkit-animation: skills1 0.5s linear 1 forwards;
   animation: skills1 0.5s linear 1 forwards; }
 
 .skills-animation2:hover {
+  -webkit-animation: skills2 0.5s linear 1 forwards;
   animation: skills2 0.5s linear 1 forwards; }
 
 .skill-text h2 {
@@ -324,6 +344,7 @@ i {
     border: solid;
     border-color: #535353;
     margin: auto;
-    width: 100%; } }
+    width: 100%;
+    padding: 10px 0px 20px 0px; } }
 
 /*# sourceMappingURL=main.css.map */
