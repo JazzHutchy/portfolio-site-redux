@@ -40,7 +40,9 @@ a.anchor {
   border-radius: 0rem; }
 
 a {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  transition: color 1s; }
 
 a:active {
   color: white;
@@ -55,7 +57,8 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  animation: buttons 0.5s linear 1 forwards; }
+  color: #64d640;
+  transition: color 0.5s; }
 
 h1 {
   color: #ffffff;
@@ -120,39 +123,6 @@ i {
   max-width: 330px;
   padding: 150px 0px 20px 0px; }
 
-.logo-font-j {
-  font-size: 150px;
-  font-family: "Source Code Pro", monospace;
-  color: #64d640;
-  text-align: center;
-  position: relative;
-  top: 170px;
-  left: -14px;
-  margin: 0px 0px -100px 0px;
-  font-weight: bold; }
-
-.logo-font-h {
-  font-size: 116px;
-  font-family: "Source Code Pro", monospace;
-  color: #64d640;
-  text-align: center;
-  position: relative;
-  top: 110px;
-  left: 25px;
-  margin: 0px 0px -100px 0px;
-  font-weight: bold; }
-
-.logo-ring {
-  border: solid;
-  border-width: 10px;
-  border-radius: 50%;
-  border-color: #64d640;
-  width: 290px;
-  height: 290px;
-  line-height: 290px;
-  margin-left: auto;
-  margin-right: auto; }
-
 .footer-stretch {
   display: inline-block;
   height: 150px; }
@@ -183,13 +153,6 @@ i {
   transition: filter 1s; }
 
 .about-me-picture:hover {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 550px;
-  width: 400px;
-  border: solid 10px grey;
-  border-radius: 10px;
   -webkit-filter: none;
   /* Safari 6.0 - 9.0 */
   filter: none;
@@ -213,10 +176,20 @@ i {
   font-size: 24px; }
 
 .skill-background1 {
-  background-color: #7a7a7a; }
+  background-color: #7a7a7a;
+  transition: background-color 1s; }
+
+.skill-background1:hover {
+  background-color: #5eae46;
+  transition: background-color 1s; }
 
 .skill-background2 {
-  background-color: #525252; }
+  background-color: #525252;
+  transition: background-color 1s; }
+
+.skill-background2:hover {
+  background-color: #5eae46;
+  transition: background-color 1s; }
 
 .portfolio-wrapper {
   background-color: #393939; }
@@ -257,15 +230,16 @@ i {
   width: 80%; }
 
 .send-button {
-  width: 20%; }
+  width: 20%;
+  color: white;
+  background-color: #9c9c9c;
+  transition: background-color 0.5s; }
 
-.skills-animation1:hover {
-  -webkit-animation: skills1 0.5s linear 1 forwards;
-  animation: skills1 0.5s linear 1 forwards; }
-
-.skills-animation2:hover {
-  -webkit-animation: skills2 0.5s linear 1 forwards;
-  animation: skills2 0.5s linear 1 forwards; }
+.send-button:hover {
+  width: 20%;
+  color: white;
+  background-color: #5eae46;
+  transition: background-color 0.5s; }
 
 .skill-text h2 {
   opacity: 0;
@@ -283,27 +257,6 @@ i {
     color: green; }
   100% {
     color: black; } }
-@keyframes skills1 {
-  0% {
-    background-color: #7a7a7a; }
-  50% {
-    background-color: green; }
-  100% {
-    background-color: #5eae46; } }
-@keyframes skills2 {
-  0% {
-    background-color: #525252; }
-  50% {
-    background-color: green; }
-  100% {
-    background-color: #5eae46; } }
-@keyframes buttons {
-  0% {
-    color: white; }
-  50% {
-    color: #9eff81; }
-  100% {
-    color: #56ff23; } }
 @media (max-width: 500px) {
   .nav-boxes {
     display: inline-block;
