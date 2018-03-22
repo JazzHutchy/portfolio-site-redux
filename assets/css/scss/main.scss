@@ -335,4 +335,16 @@ i {
     width: 100%;
     padding: 10px 0px 20px 0px;
   }
+  .send-button {
+    width: 30%;
+    color: white;
+    background-color: #9c9c9c;
+    transition: background-color 0.5s;
+  }
+  .send-button:hover {
+    width: 30%;
+    color: white;
+    background-color: #5eae46;
+    transition: background-color 0.5s;
+  }
 }
