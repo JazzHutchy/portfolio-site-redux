@@ -28,14 +28,9 @@
   <!-- Enable Devicons -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
-  <!-- Enable Fontawesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Francois+One|Source+Code+Pro|Ubuntu" rel="stylesheet">
 
-  <!-- jQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </head>
 
@@ -45,22 +40,19 @@
     <nav class='ul-remove-margin no-highlight'>
       <ul>
         <li class="nav-boxes active">
-          <button id="slide-to">Test</button>
+          <a id="top" href="#topSection">Top</a>
         </li>
         <li class="nav-boxes active">
-          <a href="#top">Top</a>
+          <a id="about" href="#aboutSection">About</a>
         </li>
         <li class="nav-boxes active">
-          <a href="#about">About</a>
+          <a id="skills" href="#skillsSection">Skills</a>
         </li>
         <li class="nav-boxes active">
-          <a href="#skills">Skills</a>
+          <a id="portfolio" href="#portfolioSection">Portfolio</a>
         </li>
         <li class="nav-boxes active">
-          <a href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-boxes active">
-          <a href="#contact">Contact</a>
+          <a id="contact" href="#contactSection">Contact</a>
         </li>
       </ul>
     </nav>
@@ -72,12 +64,9 @@
     </div>
   </div>
 
-  <a class="anchor" id="top"></a>
+  <a class="anchor" id="topSection"></a>
   <div class='container-padding'>
     <div class='logo-container container-fluid'>
-      <!-- <h1 class='logo-font-j'>J</h1>
-      <h1 class='logo-font-h'>h</h1>
-      <h1 class='logo-ring align-center'></h1> -->
       <img class='sticky-title' src="/readme-images/logo.svg" width='100%' alt="logo">
     </div>
 
@@ -88,15 +77,8 @@
     </div>
   </div>
 
-  <!-- <div>
-    <h3 style='color:green'>Javascript Play Area</h3>
-    <p style='color:green'>
-      <script type="text/javascript" src="/assets/js/sandbox.js"> </script>
-    </p>
-  </div> -->
-
   <div class='container-padding about-me-wrapper'>
-    <a class="anchor" id="about"></a>
+    <a class="anchor" id="aboutSection"></a>
     <div class="container">
       <h2 class="h2-color" style="text-align:center;">About Me</h2>
 
@@ -120,7 +102,7 @@
   <!-- Skills -->
   <div class='container-padding'>
     <div class='container'>
-      <a class="anchor" id="skills"></a>
+      <a class="anchor" id="skillsSection"></a>
       <h2 class="h2-color" style='text-align: center;'>Programming Stacks</h2>
       <div class='row mt-4 justify-content-center'>
 
@@ -197,7 +179,7 @@
   <!-- Portfolio -->
   <div class='container-padding portfolio-wrapper'>
     <div class='container'>
-      <a class="anchor" id="portfolio"></a>
+      <a class="anchor" id="portfolioSection"></a>
       <h2 class="h2-color" style='text-align:center; margin-bottom:1em;'>Portfolio</h2>
     </div>
 
@@ -240,7 +222,7 @@
 
   <!-- Contact Section-->
   <div class='container-padding'>
-    <a class="anchor" id="contact"></a>
+    <a class="anchor" id="contactSection"></a>
     <div class='container' style="text-align: center;">
       <h2 class="h2-color" style="font-size:50px;">Get In Touch!</h2>
 
@@ -284,11 +266,16 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <!-- Enable Fontawesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
     crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/assets/js/navSlide.js"></script>
+  <script src="/assets/js/navSlide.js"></script>
 
 </body>
 
